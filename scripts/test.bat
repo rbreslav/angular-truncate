@@ -7,5 +7,5 @@ REM Requirements:
 REM - NodeJS (http://nodejs.org/)
 REM - Karma (npm install -g karma)
 
-set BASE_DIR=%~dp0
+set BASE_DIR=%~dp1
 karma start "%BASE_DIR%\..\test\karma.conf.js" %*

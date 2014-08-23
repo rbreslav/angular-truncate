@@ -19,7 +19,7 @@ angular.module('truncate', [])
                 }
                 return input + '...';
             }
-            return input;
+            return input;;
         };
     })
     .filter('words', function () {
